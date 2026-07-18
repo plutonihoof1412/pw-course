@@ -7,6 +7,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle("Tài liệu học automation test");
 });
 // inspect cho thay title = Tài liệu học automation test - Playwright Việt Nam, nen test case expected to be fail, de minh test case fail
+
 test('get started link', async ({ page }) => {
   await page.goto('https://material.playwrightvn.com/');
 
@@ -16,5 +17,3 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'User Registration' })).toBeVisible();
 });
-
-/// check git commit 
