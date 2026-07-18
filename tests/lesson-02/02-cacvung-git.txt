@@ -1,7 +1,13 @@
 Xác định các vùng cho mỗi step: local - working directory - staging - repo
 a. Tạo 3 file: file1, file2, file3 
+  -> ở local
 b. Chạy lệnh: git init 
+  -> chuyển files lên working directory
 c. Chạy lệnh: git commit -m"init project" 
+  -> lỗi trả về, tại chưa có gì ở staging để đẩy lên repo
 d. Chạy lệnh: git add file1 
-e. Chạy lệnh: git commit -m"add file1" 
+  -> đẩy "file1" từ working directory lên staging
+e. Chạy lệnh: git commit -m"add file1"
+  -> đẩy "file1" từ stg lên repo
 f. Chạy lệnh: git commit -m"add file"
+  -> không có gì xảy ra vì working tree is clear, nothing to commit
