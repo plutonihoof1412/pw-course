@@ -15,6 +15,7 @@
 - `git add .` or `git add {{file name}}`: to push file(s) from local to Staging, ready for finalization
 - `git commit -m "feat: message"`: to push the file(s) from Staging to the local repo (finalize snapshot of the staged changes)
 - `git push origin main`: to send the files to the remote repo
+  
 ### Author identity unknown
 #### tell Git who we are for all repo
 - git config --global user.email "uyen@gmail.com"
